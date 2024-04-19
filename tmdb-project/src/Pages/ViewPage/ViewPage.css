@@ -1,0 +1,126 @@
+.section-settings {
+  display: flex;
+  align-items: center;
+  background-color: #eee6cf;
+  height: 100vh;
+  flex-direction: column;
+  color: #eee6cf;
+  overflow: auto;
+}
+
+.background-settings {
+  width: 100%;
+  object-fit: cover;
+  height: 20rem;
+  opacity: 2;
+}
+
+.movie-title-settings {
+  margin-top: -8rem;
+}
+
+.synopsis-settings {
+  color: #242021;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: 300;
+  margin-top: 3.5rem;
+}
+
+.button-style {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #eee6cf;
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-color: #242021;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  transition: all 0.2s ease-out;
+}
+
+.button-style:hover {
+  background-color: #eee6cf;
+  color: #242021;
+  box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+    0 4px 6px 0 rgb(93 100 148 / 20%);
+}
+
+.details-text-style {
+  color: #242021;
+  font-weight: 400;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.modal-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 8px;
+}
+
+.modal-submit-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-text-style {
+  font-size: 13px;
+  border-radius: 4px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #eee6cf;
+  color: rgb(14, 14, 16);
+  background: #eee6cf;
+  display: block;
+  height: 30px;
+}
+
+.input-text-style:hover {
+  border-color: #ccc;
+}
+:focus {
+  border-color: #9147ff;
+  background: #fff;
+}
+
+.modal-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 1px solid #1d1c1d4d;
+  font-weight: 700;
+  background: #eee6cf;
+  padding: 0 8px 1px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: rgb(29, 28, 29);
+  height: 28px;
+  min-width: 56px;
+  transition: all 80ms linear;
+}
+
+.modal-button:hover {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+  background: #cbae70;
+  color: #242021;
+}
+
+.text-modal {
+  font-weight: 400;
+  margin-bottom: 1px;
+}
